@@ -1,0 +1,105 @@
+package com.vsm.lib.dto.human; 
+ 
+import java.io.Serializable;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class Ta140Dto implements Serializable { 
+	private static final long serialVersionUID = 1L; 
+
+	private Ta140PKDto id;
+	private String ta140AvanzaChecada;
+	private String ta140AvanzaTExtra;
+	private String ta140DescDom;
+	private String ta140DescJue;
+	private String ta140DescLun;
+	private String ta140DescMar;
+	private String ta140DescMie;
+	private String ta140DescSab;
+	private String ta140DescVie;
+	private LocalDateTime ta140FechaMov;
+	private String ta140GpoParm;
+	private LocalDateTime ta140HoraE1Dom;
+	private LocalDateTime ta140HoraE1Jue;
+	private LocalDateTime ta140HoraE1Lun;
+	private LocalDateTime ta140HoraE1Mar;
+	private LocalDateTime ta140HoraE1Mie;
+	private LocalDateTime ta140HoraE1Sab;
+	private LocalDateTime ta140HoraE1Vie;
+	private LocalDateTime ta140HoraE2Dom;
+	private LocalDateTime ta140HoraE2Jue;
+	private LocalDateTime ta140HoraE2Lun;
+	private LocalDateTime ta140HoraE2Mar;
+	private LocalDateTime ta140HoraE2Mie;
+	private LocalDateTime ta140HoraE2Sab;
+	private LocalDateTime ta140HoraE2Vie;
+	private LocalDateTime ta140HoraEc1Dom;
+	private LocalDateTime ta140HoraEc1Jue;
+	private LocalDateTime ta140HoraEc1Lun;
+	private LocalDateTime ta140HoraEc1Mar;
+	private LocalDateTime ta140HoraEc1Mie;
+	private LocalDateTime ta140HoraEc1Sab;
+	private LocalDateTime ta140HoraEc1Vie;
+	private LocalDateTime ta140HoraEc2Dom;
+	private LocalDateTime ta140HoraEc2Jue;
+	private LocalDateTime ta140HoraEc2Lun;
+	private LocalDateTime ta140HoraEc2Mar;
+	private LocalDateTime ta140HoraEc2Mie;
+	private LocalDateTime ta140HoraEc2Sab;
+	private LocalDateTime ta140HoraEc2Vie;
+	private LocalDateTime ta140HoraS1Dom;
+	private LocalDateTime ta140HoraS1Jue;
+	private LocalDateTime ta140HoraS1Lun;
+	private LocalDateTime ta140HoraS1Mar;
+	private LocalDateTime ta140HoraS1Mie;
+	private LocalDateTime ta140HoraS1Sab;
+	private LocalDateTime ta140HoraS1Vie;
+	private LocalDateTime ta140HoraS2Dom;
+	private LocalDateTime ta140HoraS2Jue;
+	private LocalDateTime ta140HoraS2Lun;
+	private LocalDateTime ta140HoraS2Mar;
+	private LocalDateTime ta140HoraS2Mie;
+	private LocalDateTime ta140HoraS2Sab;
+	private LocalDateTime ta140HoraS2Vie;
+	private LocalDateTime ta140HoraSc1Dom;
+	private LocalDateTime ta140HoraSc1Jue;
+	private LocalDateTime ta140HoraSc1Lun;
+	private LocalDateTime ta140HoraSc1Mar;
+	private LocalDateTime ta140HoraSc1Mie;
+	private LocalDateTime ta140HoraSc1Sab;
+	private LocalDateTime ta140HoraSc1Vie;
+	private LocalDateTime ta140HoraSc2Dom;
+	private LocalDateTime ta140HoraSc2Jue;
+	private LocalDateTime ta140HoraSc2Lun;
+	private LocalDateTime ta140HoraSc2Mar;
+	private LocalDateTime ta140HoraSc2Mie;
+	private LocalDateTime ta140HoraSc2Sab;
+	private LocalDateTime ta140HoraSc2Vie;
+	private String ta140Inicial;
+	private BigDecimal ta140MinCalEnt;
+	private BigDecimal ta140MinCalSal;
+	private BigDecimal ta140MinComDom;
+	private BigDecimal ta140MinComJue;
+	private BigDecimal ta140MinComLun;
+	private BigDecimal ta140MinComMar;
+	private BigDecimal ta140MinComMie;
+	private BigDecimal ta140MinComSab;
+	private BigDecimal ta140MinComVie;
+	private BigDecimal ta140MinDifHor;
+	private BigDecimal ta140MinTfS1;
+	private BigDecimal ta140MinTiempoFlexible;
+	private BigDecimal ta140MinTol;
+	private String ta140SalDomTrab;
+	private String ta140Sts;
+	private String ta140TipoTurno;
+	private String ta140TurnoDescr;
+	private String ta140UserId;
+	private String ta140VacDesc;
+	private BigDecimal ta140VacFactor;
+}
